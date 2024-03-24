@@ -1,0 +1,78 @@
+.banner__title {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding-top: 55px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#banner {
+  background-color: #000;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  width: 3008px;
+  height: 624px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+}
+
+.banner__text {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin: 6px 0 10px 0;
+  color: #fff;
+}
+
+.banner__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.banner__link__div {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+
+a {
+  color: #2997ff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 0.65em;
+}
+
+.next {
+  color: #2997ff;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
